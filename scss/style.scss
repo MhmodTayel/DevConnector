@@ -57,12 +57,36 @@ img {
     color: #fff;
   }
   a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     padding: 0.45rem;
-    margin: 0 0.25rem;
+    margin: 0 0.35rem;
     transition: 0.2s;
     &:hover {
       color: $primary-color;
     }
+  }
+}
+
+//  Landing
+
+.landing {
+  position: relative;
+  background: url('../img/showcase.jpg')no-repeat center center/cover;
+  height: 100vh;
+
+
+  &-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
   }
 }
