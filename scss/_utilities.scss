@@ -1,3 +1,14 @@
+// Container
+
+.container {
+  max-width: $max-width;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
 // Text styles
 
 .x-large {
@@ -6,7 +17,7 @@
   margin-bottom: 1rem;
 }
 
-.lage {
+.large {
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -15,6 +26,10 @@
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.text-primary {
+  color: $primary-color;
 }
 
 //  Backgrounds
@@ -48,7 +63,7 @@
   display: inline-block;
   background: $light-color;
   color: #333;
-  padding: 0.4rem 1.3rem;
+  padding: .6rem 1.3rem;
   cursor: pointer;
   border: none;
   outline: none;
@@ -89,15 +104,12 @@
     background: lighten($dark-color, $amount: 20%);
     color: #fff;
     transform: translateY(-2px);
-    
   }
 
   &:hover .fas {
-    transition: transform .2s;
-    transform: translateX(3px);
+    transition: transform 0.2s;
+    transform: translateX(2px);
   }
-
-
 }
 
 .dark-overlay {
