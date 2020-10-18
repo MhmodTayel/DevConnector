@@ -32,6 +32,9 @@ img {
   width: 100%;
 }
 
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 // Navbar
 
 .navbar {
@@ -183,5 +186,11 @@ img {
         flex-basis: 20%;
       }
     }
+  }
+}
+
+.dash-buttons {
+  a:hover .fas {
+    transform: none;
   }
 }
