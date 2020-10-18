@@ -138,6 +138,14 @@ img {
 
   .profile-about {
     grid-area: about;
+    text-align: center;
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   }
 
   .profile-exp {
@@ -147,7 +155,21 @@ img {
   .profile-edu {
     grid-area: edu;
   }
+  .profile-exp,
+  .profile-edu {
+    & > div {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: #ccc 1px dotted;
+      &:last-child {
+        border: none;
+      }
+    }
 
+    p {
+      margin: .5rem 0;
+    }
+  }
   .profile-github {
     grid-area: github;
   }
