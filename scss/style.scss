@@ -32,9 +32,7 @@ img {
   width: 100%;
 }
 
-p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 // Navbar
 
 .navbar {
@@ -193,4 +191,8 @@ p {
   a:hover .fas {
     transform: none;
   }
+}
+
+.btn-danger:hover .fas {
+  transform: none;
 }
