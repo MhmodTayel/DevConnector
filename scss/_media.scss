@@ -1,0 +1,104 @@
+@media (max-width: 700px) {
+  .hide-sm {
+    display: none;
+  }
+  // Navbar
+
+  .navbar {
+    display: block !important;
+    text-align: center;
+
+    ul {
+      text-align: center;
+      justify-content: center;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .dash-buttons a {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.2rem;
+  }
+
+  .container {
+    margin-top: 10rem;
+  }
+
+  // Text Styles
+
+  .x-large {
+    font-size: 3rem;
+  }
+
+  .large {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .profile {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+    justify-content: center !important;
+    img {
+      width: 150px;
+      margin: auto;
+    }
+    ul {
+      display: none;
+    }
+  }
+
+  .profile-grid {
+    grid-template-areas: 
+    'top'
+    'about'
+    'exp'
+    'edu'
+    'github'
+    !important;
+  }
+
+  .profile-about {
+    .skills {
+      flex-direction: column;
+
+    }
+  }
+
+  .post {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    display: block !important;
+    text-align: center;
+
+    ul {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .container {
+    margin-top: 18rem;
+  }
+  .table th, .table td:first-child {
+    padding: 1rem 3rem;
+    text-align: left;
+}
+
+}
